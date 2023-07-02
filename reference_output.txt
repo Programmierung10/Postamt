@@ -1,0 +1,42 @@
+======== THE COMPILER SAYS ========
+<nothing>
+
+======== EXECUTABLE STDERR ========
+[Joe, Max, 200, Big] [Sandra, Jill, 120, Maxi]
+[{Maxi, Standard, Big, Compact}, Kapazitaet: 60, {[Jill, Sandra, 81, Standard], [Sandra, Jill, 120, Maxi], [Max, Sandra, 90, Standard], [Joe, Max, 200, Big], [Jill, Max, 90, Standard]}]
+[{Maxi, Standard, Big, Compact}, Kapazitaet: 60, {}]
+
+======== EXECUTABLE STDOUT ========
+Letter
+Error 1
+[Jill, Sandra, 80, Standard]
+Error 2
+Error 3
+Error 4
+[Jill, Sandra, 81, Standard] 81 10
+[Sandra, Jill, 120, Maxi] 120 16
+[Max, Sandra, 90, Standard] 90 10
+[Joe, Max, 200, Big] 200 14
+[Jill, Max, 90, Standard] 90 10
+1000 0001 1000 0010 1000 
+12
+
+Mailbox
+[{Standard}, Kapazitaet: 50, {}]
+Error 5
+Error 6
+Error 7
+Error 8
+[{Maxi, Standard, Big}, Kapazitaet: 50, {}]
+Error 9
+[{Maxi, Standard, Big, Compact}, Kapazitaet: 60, {[Jill, Sandra, 81, Standard], [Sandra, Jill, 120, Maxi], [Max, Sandra, 90, Standard], [Joe, Max, 200, Big], [Jill, Max, 90, Standard]}]
+Error 10
+Error 11
+581 0
+
+Compiler exited with error code 0
+Executable exited with error code 0
+
+======== DIFF OUTPUT (yours vs. reference) ========
+
+MATCH ✓
